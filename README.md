@@ -1,10 +1,13 @@
-# koa-websocket
+# forked from [koa-websocket](https://www.npmjs.com/package/koa-websocket)
+# tomjs-koa-websocket
 
 [![Circle CI](https://circleci.com/gh/kudos/koa-websocket.svg?style=svg)](https://circleci.com/gh/kudos/koa-websocket)
 
 > Koa v2 is now the default. For Koa v1 support install with koa-websocket@2 and see the `legacy` branch.
 
 Supports `ws://` and `wss://`
+
+add ctx.websocket_server
 
 ## Installation
 
@@ -15,7 +18,7 @@ Supports `ws://` and `wss://`
 ```js
 const Koa = require('koa'),
   route = require('koa-route'),
-  websockify = require('koa-websocket');
+  websockify = require('tomjs-koa-websocket');
 
 const app = websockify(new Koa());
 
@@ -45,7 +48,7 @@ Example with Let's Encrypt ([the Greenlock package](https://git.daplie.com/Dapli
 ```js
 const Koa = require('koa');
 const greenlock = require('greenlock-express');
-const websockify = require('koa-websocket');
+const websockify = require('tomjs-koa-websocket');
  
 const le = greenlock.create({
   // all your sweet Let's Encrypt options here
@@ -69,7 +72,7 @@ With custom websocket options.
 ```js
 const Koa = require('koa'),
   route = require('koa-route'),
-  websockify = require('koa-websocket');
+  websockify = require('tomjs-koa-websocket');
 
 const wsOptions = {};
 const app = websockify(new Koa(), wsOptions);

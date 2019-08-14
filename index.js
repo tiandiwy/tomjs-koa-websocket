@@ -26,6 +26,7 @@ KoaWebSocketServer.prototype.onConnection = function onConnection(socket, req) {
 
   const context = this.app.createContext(req);
   context.websocket = socket;
+  context.websocket_server = this.server;
   context.path = url.parse(req.url).pathname;
 
   fn(context).catch((err) => {
