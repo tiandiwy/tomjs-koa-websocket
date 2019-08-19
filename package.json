@@ -16,7 +16,7 @@
   ],
   "author": {
     "name": "tiandiwy",
-    "email": "tiandiwy@aliyun.com",
+    "email": "tiandiwy@aliyun.com"
   },
   "repository": "git://github.com/kudos/koa-websocket",
   "bugs": "https://github.com/tiandiwy/tomjs-koa-websocket/issues",
