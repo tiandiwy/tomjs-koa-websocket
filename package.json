@@ -1,5 +1,5 @@
 {
-  "name": "koa-websocket",
+  "name": "tomjs-koa-websocket",
   "version": "6.0.0",
   "description": "Light wrapper around Koa providing a websocket middleware handler that is koa-route compatible.",
   "main": "index.js",
@@ -15,14 +15,12 @@
     "routes"
   ],
   "author": {
-    "name": "Jonathan Cremin",
-    "email": "jonathan@crem.in",
-    "url": "https://crem.in",
-    "twitter": "https://twitter.com/kudoz"
+    "name": "tiandiwy",
+    "email": "tiandiwy@aliyun.com",
   },
   "repository": "git://github.com/kudos/koa-websocket",
-  "bugs": "https://github.com/kudos/koa-websocket/issues",
-  "homepage": "https://github.com/kudos/koa-websocket",
+  "bugs": "https://github.com/tiandiwy/tomjs-koa-websocket/issues",
+  "homepage": "https://github.com/tiandiwy/tomjs-koa-websocket",
   "license": "MIT",
   "dependencies": {
     "co": "^4.4.0",
